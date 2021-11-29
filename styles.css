@@ -1,0 +1,576 @@
+.fluid {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+body {
+  background-color: #d1d1d1;
+}
+
+@media (max-width: 1028px) {
+  .navbar {
+    max-width: 100% !important;
+  }
+  .education_item{
+    position: absolute;
+    width: 100%;
+  }
+  .education_item_2{
+    position: absolute;
+    width: 100%;
+  }
+  .experience_item{
+    position: absolute;
+    width: 100%;
+  }
+  .experience_item_2{
+    position: absolute;
+    width: 100%;
+  }
+}
+
+@media (max-width: 1028px) {
+  .pad {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .person_img {
+    max-width: 100%;
+    max-height: 100%;
+  }
+  .btn_bottom{
+    margin-left:104px;
+  }
+}
+
+@media (max-width: 1028px) {
+  .container {
+    max-width: 100%;
+  }
+
+  html, body {
+    margin: 0px;
+  }
+  
+
+  .vl {
+    display: none;
+  }
+
+  .vertical {
+    display: none;
+  }
+
+  .education_item:after {
+    display: none;
+  }
+
+  .education_item_2:after {
+    display: none;
+  }
+
+  .education_item:before {
+    display: none;
+  }
+
+  .education_item_2:before {
+    display: none;
+  }
+
+  .experience_item:before {
+    display: none;
+  }
+
+  .experience_item_2:before {
+   display: none;
+  }
+
+  .experience_item:after {
+    display: none;
+  }
+
+  .experience_item_2:after {
+    display: none;
+  }
+}
+
+.navbar-brand {
+  font-family: 'Lobster', cursive;
+  font-size: 30px;
+}
+
+.collapse {
+  display: block;
+}
+
+.navbar {
+  background-color: blue;
+  color: black;
+  margin: 0;
+}
+
+.btn {
+  height: 40px;
+  width: 40px;
+}
+
+.follow {
+  text-align: center;
+}
+
+.media-left {
+  margin-right: 0
+}
+
+.media-body {
+  display: table-cell;
+  vertical-align: top;
+  margin-left: 10px;
+}
+
+button {
+  margin: 1%;
+}
+
+table, th, td {
+  border: 1px solid black;
+  text-align: center;
+}
+
+.second {
+  height: 50px;
+}
+
+.navbar-collapse {
+  width: 36%;
+}
+
+.navbar {
+  background-color: blue;
+  margin-bottom: 40px;
+}
+
+.title {
+  text-align: center;
+  display: inline;
+}
+
+.text {
+  color: #222222;
+}
+
+.bio {
+  margin: 30px 0;
+}
+
+.info {
+  list-style-type: none;
+}
+
+.button {
+  margin-left: 50px;
+}
+
+.download_btn {
+  background: blue;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 40px;
+  border-radius: 20px;
+  height: 40px;
+  width: 255px;
+  color: white;
+  font-size: 23px;
+  font-family: 'Lobster', cursive;
+  margin: 0;
+  position: absolute;
+}
+
+.social {
+  margin-left: 66px;
+}
+
+.social-2 {
+  margin-left: 100px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+input {
+  width: 100%;
+  box-shadow: none;
+  outline: none;
+  text-shadow: none;
+  border: 1px solid #dfdfdf;
+  border-radius: 0px;
+  padding: 0px 15px;
+  height: 50px;
+  font-size: 14px;
+  color: #999999;
+  font-family: "Raleway", sans-serif;
+}
+
+textarea {
+  width: 100%;
+  box-shadow: none;
+  outline: none;
+  text-shadow: none;
+  border: 1px solid #dfdfdf;
+  border-radius: 0px;
+  padding: 20px 15px 0px 15px;
+  height: 120px;
+  font-size: 14px;
+  color: #999999;
+  resize: none;
+  font-family: "Raleway", sans-serif;
+}
+
+.contact_btn {
+  max-width: 140px;
+  display: block;
+  line-height: 40px;
+  color: #fff;
+  font-family: "Raleway", sans-serif;
+  box-shadow: none !important;
+  outline: none !important;
+  border: none;
+  border-radius: 0px;
+  background: blue;
+  width: 100%;
+  padding: 0px;
+  position: relative;
+  overflow: hidden;
+}
+
+.row {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.main-title {
+  text-align: center;
+  padding: 60px 0px;
+}
+
+.col-md-6 {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-bottom: 40px;
+}
+
+.educational_inner_area {
+  position: relative;
+  overflow: hidden;
+}
+
+.education_item {
+  width: 50%;
+  max-width: 420px;
+  background: #fff;
+  margin-bottom: 30px;
+  padding: 20px;
+  margin-left: 80px;
+  position: relative;
+  z-index: 2;
+}
+
+.education_item_2 {
+  width: 50%;
+  max-width: 420px;
+  background: #fff;
+  margin-bottom: 30px;
+  padding: 20px;
+  margin-left: 80px;
+  position: relative;
+  z-index: 2;
+}
+
+.vl {
+  border-left: 6px solid blue;
+  height: 1480px;
+  position: absolute;
+  left: 50%;
+  margin-left: 0;
+  top: 0;
+}
+
+.education_item:before {
+  content: attr(data-line);
+  position: absolute;
+  right: 472px;
+  top: 0px;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  border: 4px solid blue;
+  text-align: center;
+  color: #fff;
+  line-height: 43px;
+  font-family: "Raleway", sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+  text-transform: uppercase;
+  background: blue;
+}
+
+.education_item_2:before {
+  content: attr(data-line);
+  position: absolute;
+  right: -120px;
+  top: 0px;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  border: 4px solid blue;
+  text-align: center;
+  color: #fff;
+  line-height: 43px;
+  font-family: "Raleway", sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+  text-transform: uppercase;
+  background: blue;
+}
+
+.education_item::after {
+  content: "";
+  background: blue;
+  height: 4px;
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  width: 119%;
+}
+
+.education_item_2::after {
+  content: "";
+  background: blue;
+  height: 4px;
+  position: absolute;
+  right: -94.4px;
+  top: 0px;
+  width: 122.5%;
+}
+
+.experience_item {
+  width: 50%;
+  max-width: 420px;
+  background: #fff;
+  margin-bottom: 30px;
+  padding: 20px;
+  margin-left: 80px;
+  position: relative;
+  z-index: 2;
+}
+
+.experience_item_2 {
+  width: 50%;
+  max-width: 420px;
+  background: #fff;
+  margin-bottom: 30px;
+  padding: 20px;
+  margin-left: 80px;
+  position: relative;
+  z-index: 2;
+}
+
+.experience_item:before {
+  content: attr(data-line);
+  position: absolute;
+  right: 472px;
+  top: 0px;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  border: 4px solid blue;
+  text-align: center;
+  color: #fff;
+  line-height: 43px;
+  font-family: "Raleway", sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+  text-transform: uppercase;
+  background: blue;
+}
+
+.experience_item_2:before {
+  content: attr(data-line);
+  position: absolute;
+  right: -55px;
+  top: 0px;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  border: 4px solid blue;
+  text-align: center;
+  color: #fff;
+  line-height: 43px;
+  font-family: "Raleway", sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+  text-transform: uppercase;
+  background: blue;
+}
+
+.experience_item::after {
+  content: "";
+  background: blue;
+  height: 4px;
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  width: 119%;
+}
+
+.experience_item_2::after {
+  content: "";
+  background: blue;
+  height: 4px;
+  position: absolute;
+  right: -30px;
+  top: 0px;
+  width: 107%;
+}
+
+.vertical {
+  border-left: 6px solid blue;
+  height: 2950px;
+  position: absolute;
+  left: 50%;
+  margin-left: 0;
+}
+
+a {
+  color: white;
+}
+
+.white {
+  background-color: white;
+  margin-bottom: 50px;
+}
+
+.progress-parcent {
+  font-family: "Raleway", sans-serif;
+  font-size: 16px;
+  color: #fff;
+  line-height: 30px;
+  text-align: right;
+  padding-right: 10px;
+}
+
+.main-title h2 {
+  font-size: 36px;
+  font-family: "Bree Serif", serif;
+  color: #222222;
+  text-transform: uppercase;
+  text-align: center;
+  border: 1px solid #222222;
+  display: inline-block;
+  line-height: 58px;
+  padding: 0px 23px;
+}
+
+.myself {
+  padding-left: 0;
+  text-align: justify;
+}
+
+.info {
+  padding-left: 0;
+}
+
+svg {
+  margin-bottom: 5px;
+}
+
+#Education {
+  background-color: #d1d1d1;
+}
+
+#Experience {
+  background-color: #d1d1d1;
+}
+
+#Contacts {
+  background-color: #d1d1d1;
+}
+
+.skills {
+  padding-bottom: 30px;
+}
+
+.progress {
+  height: 20px;
+}
+
+.progress-bar {
+  background-color: blue;
+}
+
+.presentation {
+  background-color: white;
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+
+.education_area {
+  padding-bottom: 60px;
+}
+
+.pad {
+  padding: 0px 68px;
+}
+
+.nav-link {
+  padding: 0;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: white;
+}
+
+.service_item {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.picture {
+  max-width: 100%;
+  height: 350px;
+  margin-bottom: 10px;
+}
+
+.contact-title {
+  font-size: 24px;
+  color: #333333;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding-bottom: 34px;
+}
+
+.contact-info {
+  font-size: 14px;
+  color: #666666;
+  line-height: 24px;
+  padding-bottom: 20px;
+}
+
+.btn-primary {
+  height: 30px;
+  width: 40px;
+  margin-right: 10px;
+}
+
+ul {
+  margin-right: 0;
+  margin-left: auto;
+}
+
+.testimonial-image {
+  margin: 0;
+  height: 400px;
+  width: 500px;
+}
