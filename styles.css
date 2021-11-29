@@ -12,19 +12,19 @@ body {
     max-width: 100% !important;
   }
   .education_item{
-    position: absolute;
+    position: relative;
     width: 100%;
   }
   .education_item_2{
-    position: absolute;
+    position: relative;
     width: 100%;
   }
   .experience_item{
-    position: absolute;
+    position: relative;
     width: 100%;
   }
   .experience_item_2{
-    position: absolute;
+    position: relative;
     width: 100%;
   }
 }
@@ -486,17 +486,6 @@ svg {
   margin-bottom: 5px;
 }
 
-#Education {
-  background-color: #d1d1d1;
-}
-
-#Experience {
-  background-color: #d1d1d1;
-}
-
-#Contacts {
-  background-color: #d1d1d1;
-}
 
 .skills {
   padding-bottom: 30px;
